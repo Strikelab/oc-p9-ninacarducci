@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"
 		integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
 		crossorigin="anonymous" referrerpolicy="no-referrer">
-	<link rel="stylesheet" href="./assets/style.min.css">
+	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
@@ -32,9 +32,9 @@
 </head>
 
 <body>
-	<div class="top-header">
-		<h3 class="name">Nina Carducci</h3>
-		<div class="nav">
+	<header>
+		<h1 class="name">Nina Carducci</h1>
+		<nav class="nav">
 			<ul>
 				<li><a href="#about">À propos</a></li>
 				<li><a href="#gallery">Galerie</a></li>
@@ -45,10 +45,10 @@
 							height="20px"></a>
 				</li>
 			</ul>
-		</div>
-	</div>
-	<div id="header">
-		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		</nav>
+	</header>
+	<main>
+		<section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
 					aria-current="true" aria-label="Slide 1"></button>
@@ -95,141 +95,151 @@
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="visually-hidden">Next</span>
 			</button>
-		</div>
-	</div>
-	<div id="about">
-		<div class="picture left">
-			<img srcset="./assets/images/nina-560.webp 560w,
-			./assets/images/nina-375.webp 375w" sizes="100vw" src="./assets/images/nina-560.webp" width="375px" height="375px"
-				style="max-width: 100%; height: auto;" alt="La photographe Nina Carducci à la clairière d'une forêt">
-		</div>
-		<div id="about-me">
-			<h3 class="about-me__title">A propos de moi</h3>
-			<h6 class="about-me__introduction">
-				Devenir photographe était pour moi une évidence. Comme si j'y étais
-				prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
-				immortels, voilà ce qui me fait vibrer.
-			</h6>
-			<p>
-				Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n'avons qu'une envie : le
-				figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux,
-				ou le partager au plus grand nombre.
-				C'est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma
-				technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l'amour, du bonheur, de la
-				tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.
-			</p>
-		</div>
-	</div>
-	<div id="gallery">
-		<h3 class="title">Portfolio</h3>
-		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item"
-				src="./assets/images/gallery/concerts/466px/aaron-paul.webp"
-				alt="scène de concert tamisée d'une lumière rouge vue du public">
-			<img data-gallery-tag="Entreprises" class="gallery-item"
-				src="./assets/images/gallery/entreprise/466px/ali-morshedlou.webp" alt="portrait d'un homme d'affaires">
-			<img data-gallery-tag="Entreprises" class="gallery-item"
-				src="./assets/images/gallery/entreprise/466px/jason-goodman.webp" alt="collègues de bureau souriants">
-			<img data-gallery-tag="Mariages" class="gallery-item"
-				src="./assets/images/gallery/mariage/466px/hannah-busing.webp" alt="mains des mariés s'effleurant ">
-			<img data-gallery-tag="Portrait" class="gallery-item"
-				src="./assets/images/gallery/portraits/466px/ade-tunji.webp"
-				alt="portrait d'un homme de couleur les yeux fermés ">
-			<img data-gallery-tag="Mariages" class="gallery-item"
-				src="./assets/images/gallery/mariage/466px/jakob-owens.webp"
-				alt="Mariés heureux, bras dessus bras dessous devant un palmier">
-			<img data-gallery-tag="Portrait" class="gallery-item"
-				src="./assets/images/gallery/portraits/466px/nino-van-prattenburg.webp"
-				alt="portrait d'une jeune femme portant des lunettes devant un grillage">
-			<img data-gallery-tag="Concert" class="gallery-item"
-				src="./assets/images/gallery/concerts/466px/austin-neill.webp"
-				alt="chanteur sur une scène enfumée aux couleurs bleu blac rouge">
-			<img data-gallery-tag="Entreprises" class="gallery-item"
-				src="./assets/images/gallery/entreprise/466px/mateus-campos-felipe.webp"
-				alt="jeune collaboratrice souriante devant son ordinateur portable">
-		</div>
-	</div>
-	<div class="quote">
-		<figure>
-			<blockquote>
-				<h1 class="quote__text">Un portrait n'est pas une ressemblance. Dès lors qu'une émotion ou qu'un
-					fait est traduit en photo, il cesse d'être un fait pour devenir une opinion. L'inexactitude
-					n'existe pas en photographie. Toutes les photos sont exactes. Aucune d'elles n'est la vérité.
-				</h1>
-			</blockquote>
-			<figcaption class="quote__author">- Richard Avedon</figcaption>
-		</figure>
-	</div>
-	</div>
-	<div id="services">
-		<h3 class="title">Mes services</h3>
-		<div class="container">
-			<div class="service">
-				<div class="service__description">
-					<h3>Shooting photo</h3>
-					<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en
-						Île-de-France pour réaliser vos photos</p>
-				</div>
-				<div class="service__price">
-					<h4>350€/demi journée</h4>
-					<span>Matériel, déplacement inclus</span>
-				</div>
+		</section>
 
+		<section id="about">
+			<div class="picture left">
+				<img srcset="./assets/images/nina-560.webp 560w,
+			./assets/images/nina-375.webp 375w" sizes="100vw" src="./assets/images/nina-560.webp" width="375px" height="375px"
+					style="max-width: 100%; height: auto;"
+					alt="La photographe Nina Carducci à la clairière d'une forêt">
 			</div>
-			<div class="service">
-				<div class="service__description">
-					<h3>Retouches</h3>
-					<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu
-						optimal pour vos publications</p>
+			<div id="about-me">
+				<h2 class="about-me__title">A propos de moi</h2>
+				<p class="about-me__introduction">
+					Devenir photographe était pour moi une évidence. Comme si j'y étais
+					prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
+					immortels, voilà ce qui me fait vibrer.
+				</p>
+				<p>
+					Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n'avons qu'une envie
+					: le
+					figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos
+					yeux,
+					ou le partager au plus grand nombre.
+					C'est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon
+					approche, ma
+					technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l'amour, du bonheur, de
+					la
+					tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.
+				</p>
+			</div>
+		</section>
+		<section id="gallery">
+			<h2 class="title">Portfolio</h2>
+			<div class="gallery" style="display: none">
+				<img data-gallery-tag="Concert" class="gallery-item"
+					src="./assets/images/gallery/concerts/466px/aaron-paul.webp"
+					alt="scène de concert tamisée d'une lumière rouge vue du public">
+				<img data-gallery-tag="Entreprises" class="gallery-item"
+					src="./assets/images/gallery/entreprise/466px/ali-morshedlou.webp"
+					alt="portrait d'un homme d'affaires">
+				<img data-gallery-tag="Entreprises" class="gallery-item"
+					src="./assets/images/gallery/entreprise/466px/jason-goodman.webp"
+					alt="collègues de bureau souriants">
+				<img data-gallery-tag="Mariages" class="gallery-item"
+					src="./assets/images/gallery/mariage/466px/hannah-busing.webp" alt="mains des mariés s'effleurant ">
+				<img data-gallery-tag="Portrait" class="gallery-item"
+					src="./assets/images/gallery/portraits/466px/ade-tunji.webp"
+					alt="portrait d'un homme de couleur les yeux fermés ">
+				<img data-gallery-tag="Mariages" class="gallery-item"
+					src="./assets/images/gallery/mariage/466px/jakob-owens.webp"
+					alt="Mariés heureux, bras dessus bras dessous devant un palmier">
+				<img data-gallery-tag="Portrait" class="gallery-item"
+					src="./assets/images/gallery/portraits/466px/nino-van-prattenburg.webp"
+					alt="portrait d'une jeune femme portant des lunettes devant un grillage">
+				<img data-gallery-tag="Concert" class="gallery-item"
+					src="./assets/images/gallery/concerts/466px/austin-neill.webp"
+					alt="chanteur sur une scène enfumée aux couleurs bleu blac rouge">
+				<img data-gallery-tag="Entreprises" class="gallery-item"
+					src="./assets/images/gallery/entreprise/466px/mateus-campos-felipe.webp"
+					alt="jeune collaboratrice souriante devant son ordinateur portable">
+			</div>
+		</section>
+		<aside class="quote">
+			<figure>
+				<blockquote>
+					<p class="quote__text">Un portrait n'est pas une ressemblance. Dès lors qu'une émotion ou qu'un
+						fait est traduit en photo, il cesse d'être un fait pour devenir une opinion. L'inexactitude
+						n'existe pas en photographie. Toutes les photos sont exactes. Aucune d'elles n'est la vérité.
+					</p>
+				</blockquote>
+				<figcaption class="quote__author">- Richard Avedon</figcaption>
+			</figure>
+		</aside>
+
+		<section id="services">
+			<h2 class="title">Mes services</h2>
+			<div class="container">
+				<div class="service">
+					<div class="service__description">
+						<h3>Shooting photo</h3>
+						<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace
+							en
+							Île-de-France pour réaliser vos photos</p>
+					</div>
+					<div class="service__price">
+						<p class=>350€/demi journée</p>
+						<span>Matériel, déplacement inclus</span>
+					</div>
 				</div>
-				<div class="service__price">
-					<h4>50€/photo</h4>
-					<span>2 AR par photo</span>
+				<div class="service">
+					<div class="service__description">
+						<h3>Retouches</h3>
+						<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu
+							optimal pour vos publications</p>
+					</div>
+					<div class="service__price">
+						<p>50€/photo</p>
+						<span>2 AR par photo</span>
+					</div>
+				</div>
+				<div class="service">
+					<div class="service__description">
+						<h3>Album photos</h3>
+						<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers
+							un
+							album photo personnalisé</p>
+					</div>
+					<div class="service__price">
+						<p>400€ album A4</p>
+						<span>30 pages recto/verso</span>
+					</div>
 				</div>
 			</div>
-			<div class="service">
-				<div class="service__description">
-					<h3>Album photos</h3>
-					<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un
-						album photo personnalisé</p>
+		</section>
+		<aside class="quote">
+			<figure>
+				<blockquote>
+					<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
+						traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
+				</blockquote>
+				<figcaption class="quote__author">- Richard Avedon</figcaption>
+			</figure>
+		</aside>
+		<section id="contact">
+			<div class="container">
+				<div class="form-container">
+					<h2>Une question ? Une demande de devis ?</h2>
+					<p> N'hésitez pas à m'écrire ! Je vous répondrais en moins de 24 heures</p>
+					<form action="" method="post">
+						<label for="nom">Nom</label>
+						<input type="text" name="nom" id="nom">
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email">
+						<label for="message">Message</label>
+						<textarea name="message" id="message" cols="30" rows="10"></textarea>
+						<input type="submit" value="Envoyer" />
+					</form>
 				</div>
-				<div class="service__price">
-					<h4>400€ album A4</h4>
-					<span>30 pages recto/verso</span>
+				<div class="picture right">
+					<img src="./assets/images/camera.webp" width="417" height="417"
+						style="max-width: 100%; height: auto;" alt="appareil photo professionnel vintage">
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="quote">
-		<figure>
-			<blockquote>
-				<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
-					traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
-			</blockquote>
-			<figcaption class="quote__author">- Richard Avedon</figcaption>
-		</figure>
-	</div>
-	<div id="contact">
-		<div class="container">
-			<div class="form-container">
-				<h3>Une question ? Une demande de devis ?</h3>
-				<p> N'hésitez pas à m'écrire ! Je vous répondrais en moins de 24 heures</p>
-				<form action="" method="post">
-					<label>Nom</label>
-					<input type="text" name="nom" id="nom">
-					<label>Email</label>
-					<input type="email" name="email" id="email">
-					<label>Message</label>
-					<textarea name="message" id="message" cols="30" rows="10"></textarea>
-					<input type="submit" value="Envoyer" />
-				</form>
-			</div>
-			<div class="picture right">
-				<img src="./assets/images/camera.webp" width="417" height="417" style="max-width: 100%; height: auto;"
-					alt="appareil photo professionnel vintage">
-			</div>
-		</div>
-	</div>
+		</section>
+	</main>
+
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
 	integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ=="
