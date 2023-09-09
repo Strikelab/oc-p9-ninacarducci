@@ -19,7 +19,6 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
-	<meta charset="UTF-8">
 	<script defer src="./assets/maugallery.min.js"></script>
 	<script defer src="./assets/scripts.min.js"></script>
 	<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
@@ -41,14 +40,14 @@
 				<li><a href="#services">Service</a></li>
 				<li><a href="#contact">Contact</a></li>
 				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-						target="_blank"><img src="assets/images/instagram.png" alt="logo instagram" width="20px"
-							height="20px"></a>
+						target="_blank"><img src="assets/images/instagram.png" alt="logo instagram" width="20"
+							height="20"></a>
 				</li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
 					aria-current="true" aria-label="Slide 1"></button>
@@ -62,7 +61,7 @@
 					<img srcset="./assets/images/slider/320px/ryoji-iwata.webp 320w,
 								 ./assets/images/slider/640px/ryoji-iwata.webp 640w,
 								 ./assets/images/slider/1024px/ryoji-iwata.webp 1024w,
-								 ./assets/images/slider/1920px/ryoji-iwata.webp 1920w" size="100vw"
+								 ./assets/images/slider/1920px/ryoji-iwata.webp 1920w" sizes="100vw"
 						src="./assets/images/slider/1920px/ryoji-iwata.webp" class="d-block w-100"
 						alt="un homme traversant Le Carrefour de Shibuya à Tokyo" width="1921" height="888"
 						style="max-width: 100%; height: auto;">
@@ -71,7 +70,7 @@
 					<img srcset="./assets/images/slider/320px/nicholas-green.webp 320w,
 					   			 ./assets/images/slider/640px/nicholas-green.webp 640w,
 								 ./assets/images/slider/1024px/nicholas-green.webp 1024w,
-								 ./assets/images/slider/1920px/nicholas-green.webp 1920w" size="100vw"
+								 ./assets/images/slider/1920px/nicholas-green.webp 1920w" sizes="100vw"
 						src="./assets/images/slider/1920px/nicholas-green.webp" class="d-block w-100"
 						alt="foule en liesse" width="1921" height="888" style="max-width: 100%; height: auto;">
 				</div>
@@ -79,7 +78,7 @@
 					<img srcset="./assets/images/slider/320px/edward-cisneros.webp 320w,
 								 ./assets/images/slider/640px/edward-cisneros.webp 640w,
 					             ./assets/images/slider/1024px/edward-cisneros.webp 1024w,
-								 ./assets/images/slider/1920px/edward-cisneros.webp 1920w" size="100vw"
+								 ./assets/images/slider/1920px/edward-cisneros.webp 1920w" sizes="100vw"
 						src="./assets/images/slider/1920px/edward-cisneros.webp" class="d-block w-100"
 						alt="mariés s'embrassant avec fougue lors de leur cérémonie de mariage" width="1921"
 						height="888" style="max-width: 100%; height: auto;">
@@ -95,12 +94,12 @@
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="visually-hidden">Next</span>
 			</button>
-		</section>
+		</div>
 
 		<section id="about">
 			<div class="picture left">
 				<img srcset="./assets/images/nina-560.webp 560w,
-			./assets/images/nina-375.webp 375w" sizes="100vw" src="./assets/images/nina-560.webp" width="375px" height="375px"
+			./assets/images/nina-375.webp 375w" sizes="100vw" src="./assets/images/nina-560.webp" width="375" height="375"
 					style="max-width: 100%; height: auto;"
 					alt="La photographe Nina Carducci à la clairière d'une forêt">
 			</div>
@@ -183,7 +182,7 @@
 							Île-de-France pour réaliser vos photos</p>
 					</div>
 					<div class="service__price">
-						<p class=>350€/demi journée</p>
+						<p>350€/demi journée</p>
 						<span>Matériel, déplacement inclus</span>
 					</div>
 				</div>
@@ -226,14 +225,14 @@
 				<div class="form-container">
 					<h2>Une question ? Une demande de devis ?</h2>
 					<p> N'hésitez pas à m'écrire ! Je vous répondrais en moins de 24 heures</p>
-					<form action="" method="post">
+					<form method="post">
 						<label for="nom">Nom</label>
 						<input type="text" name="nom" id="nom">
 						<label for="email">Email</label>
 						<input type="email" name="email" id="email">
 						<label for="message">Message</label>
 						<textarea name="message" id="message" cols="30" rows="10"></textarea>
-						<input type="submit" value="Envoyer" />
+						<input type="submit" value="Envoyer">
 					</form>
 				</div>
 				<div class="picture right">
@@ -243,10 +242,10 @@
 			</div>
 		</section>
 	</main>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+		integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-	integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ=="
-	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
 </html>
