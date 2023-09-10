@@ -5,7 +5,7 @@
 [https://github.com/Strikelab/oc-p9-ninacarducci/](https://strikelab.github.io/oc-p9-ninacarducci/)
 
 ## Lien Hebergement Ionos
-[https://oc-ninacarducci-optimized.strikelab.fr/](https://oc-ninacarducci-optimized.strikelab.fr/)
+[https://oc-ninacarducci.strikelab.fr/](https://oc-ninacarducci.strikelab.fr/)
 
 ## Auteurs
 
