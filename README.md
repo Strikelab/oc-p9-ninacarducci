@@ -32,6 +32,9 @@
 
 ## Social Network and Rich Snippets
 ### Google Rich Snipets
+[Rapport rich-results](https://search.google.com/test/rich-results/result?id=YbAU5LjRgPS3V1HQPrYXsw)  
+
+
 ![wave summary](https://strikelab.fr/sites/openclassrooms/projet9/google_richsnippet.png)
 ![wave summary](https://strikelab.fr/sites/openclassrooms/projet9/google_richsnippet2.png)
 
