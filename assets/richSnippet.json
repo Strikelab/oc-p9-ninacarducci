@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "image": [
+    "https://oc-ninacarducci.strikelab.fr/assets/images/gallery/portraits/466px/ade-tunji.webp",
+    "https://oc-ninacarducci.strikelab.fr/assets/images/gallery/mariage/466px/jakob-owens.webp",
+    "https://oc-ninacarducci.strikelab.fr/assets/images/gallery/concerts/466px/aaron-paul.webp"
+  ],
+  "name": "Nina Carducci Photographe Bordeaux",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "68 avenue Alsace-Lorraine",
+    "addressLocality": "Bordeaux",
+    "addressRegion": "Nouvelle-Aquitaine",
+    "postalCode": "33200",
+    "addressCountry": "FR"
+  },
+  "priceRange": "50€ 400€",
+
+  "author": {
+    "@type": "Person",
+    "name": "Nina Carducci"
+  },
+
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 44.846673,
+    "longitude": -0.60658
+  },
+  "url": "https://oc-ninacarducci.strikelab.fr",
+  "telephone": "+33556677889.",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Friday"],
+    "opens": "10:00",
+    "closes": "19:00"
+  }
+}
