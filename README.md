@@ -7,6 +7,13 @@
 ## Lien Hebergement Ionos
 [https://oc-ninacarducci.strikelab.fr/](https://oc-ninacarducci.strikelab.fr/)
 
+## Rapports lighthouse
+### local
+[rapport mobile](https://strikelab.fr/sites/openclassrooms/projet9/2023091211301-mobile-local-final.html)  
+[rapport desktop](https://strikelab.fr/sites/openclassrooms/projet9/202309121302-desktop-local-final.html)
+### hebergeur 1&1 ionos 
+[rapport mobile](https://strikelab.fr/sites/openclassrooms/projet9/202309121319-mobile-ionos-final.html)  
+[rapport desktop](https://strikelab.fr/sites/openclassrooms/projet9/202309121317-desktop-ionos-final.html)
 ## Auteurs
 
 - StrikeLab contact@strikelab.fr
