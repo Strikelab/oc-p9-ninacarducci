@@ -1,6 +1,0 @@
-Redimensionnement des images
-convertir les images dans des formats performants : webp
-indiquer les dimensions des images pour réserver leur place
-defer ou async les scripts bloquants
-minifier 
-réduire le CSS inutilisé
