@@ -44,6 +44,10 @@
 ### twitter card
 ![wave summary](https://strikelab.fr/sites/openclassrooms/projet9/twitter.png)
 
+## W3C validator
+![wave summary](https://strikelab.fr/sites/openclassrooms/projet9/ninacarducci-w3C-html.png)
+![wave summary](https://strikelab.fr/sites/openclassrooms/projet9/ninacarducci-w3C-css.png)
+
 ## Auteurs
 - StrikeLab contact@strikelab.fr
 
