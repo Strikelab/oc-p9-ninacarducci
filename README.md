@@ -10,12 +10,12 @@
 
 ## Rapports lighthouse
 ### local
-[rapport mobile](https://strikelab.fr/sites/openclassrooms/projet9/2023091211301-mobile-local-final.html)  
-[rapport desktop](https://strikelab.fr/sites/openclassrooms/projet9/202309121302-desktop-local-final.html)
+[rapport mobile](https://strikelab.fr/sites/openclassrooms/projet9/202309140110-mobile-local-final.html)  
+[rapport desktop](https://strikelab.fr/sites/openclassrooms/projet9/202309140111-desktop-local-final.html)
 
 ### hebergeur 1&1 ionos 
 [rapport mobile](https://strikelab.fr/sites/openclassrooms/projet9/202309140039-mobile-ionos-final.html)  
-[rapport desktop](https://strikelab.fr/sites/openclassrooms/projet9/202309140039-desktop-ionos-final.html)
+[rapport desktop](https://strikelab.fr/sites/openclassrooms/projet9/202309151054-desktop-vanilla-ionos-final.html)
 
 ## Rapport GTMetrix
 [Avec CDN Cloudflare](https://gtmetrix.com/reports/oc-ninacarducci.strikelab.fr/OcR0HSb1/)  
@@ -43,6 +43,10 @@
 
 ### twitter card
 ![wave summary](https://strikelab.fr/sites/openclassrooms/projet9/twitter.png)
+
+## W3C validator
+![wave summary](https://strikelab.fr/sites/openclassrooms/projet9/ninacarducci-w3C-html.png)
+![wave summary](https://strikelab.fr/sites/openclassrooms/projet9/ninacarducci-w3C-css.png)
 
 ## Auteurs
 - StrikeLab contact@strikelab.fr
