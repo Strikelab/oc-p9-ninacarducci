@@ -18,7 +18,8 @@
 [rapport desktop](https://strikelab.fr/sites/openclassrooms/projet9/202309151054-desktop-vanilla-ionos-final.html)
 
 ## Rapport GTMetrix
-[Avec CDN Cloudflare](https://gtmetrix.com/reports/oc-ninacarducci.strikelab.fr/OcR0HSb1/)  
+[~~Oblsolete report CDN Cloudflare.~~](https://gtmetrix.com/reports/oc-ninacarducci.strikelab.fr/OcR0HSb1/)  
+[render.com deployment with cdn](https://gtmetrix.com/reports/nina-carducci.onrender.com/dAiM1CBB/)  
 [Sans CDN](https://gtmetrix.com/reports/oc-ninacarducci.strikelab.fr/uKkilgnT/)
 
 
