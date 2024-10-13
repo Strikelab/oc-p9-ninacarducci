@@ -1,7 +1,7 @@
 # oc-p9-ninacarducci
  Projet N°9 parcours intégrateur web OpenClassrooms
 
-  ![ninacarducci](https://strikelab.fr/sites/openclassrooms/projet9/ninacarducci.png)
+  ![ninacarducci](https://share.nvlb.fr/images/oc/ninacarducci.png)
 ## Lien GitHub Pages
 [https://github.com/Strikelab/oc-p9-ninacarducci/](https://strikelab.github.io/oc-p9-ninacarducci/)
 
